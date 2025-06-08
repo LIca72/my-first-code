@@ -1,0 +1,58 @@
+
+
+''' phonebook = {}
+
+def add_contact():
+    name = input("Enter contact name: ")
+    number = input("Enter phone number: ")
+    phonebook[name] = number
+    print(f"Contact '{name}' added successfully.\n")
+
+def view_contacts():
+    if phonebook:
+        print("\n📱 Phonebook Contacts:")
+        for name, number in phonebook.items():
+            print(f"{name}: {number}")
+    else:
+        print("The phonebook is empty.\n")
+
+def search_contact():
+    name = input("Enter the name to search: ")
+    if name in phonebook:
+        print(f"Found: {name} → {phonebook[name]}")
+    else:
+        print("Contact not found.\n")
+
+def delete_contact():
+    name = input("Enter the name to delete: ")
+    if name in phonebook:
+        del phonebook[name]
+        print(f"Contact '{name}' deleted successfully.\n")
+    else:
+        print("Contact not found.\n")
+
+def show_menu():
+    print("\n📖 Phonebook Menu:")
+    print("1. Add Contact")
+    print("2. View Contacts")
+    print("3. Search Contact")
+    print("4. Delete Contact")
+    print("5. Exit")
+
+while True:
+    show_menu()
+    choice = input("Choose an option (1-5): ")
+
+    if choice == "1":
+        add_contact()
+    elif choice == "2":
+        view_contacts()
+    elif choice == "3":
+        search_contact()
+    elif choice == "4":
+        delete_contact()
+    elif choice == "5":
+        print("Goodbye! 📵")
+        break
+    else:
+        print("Invalid option. Please enter a number from 1 to 5.\n")'''
