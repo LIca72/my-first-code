@@ -1,0 +1,38 @@
+
+
+
+'''def coffee_machine():
+    print("Welcome to the Virtual Coffee Machine!")
+    name = input("What's your name? ")
+
+    print(f"\nHello, {name}! What would you like to order?")
+    print("1. Espresso")
+    print("2. Cappuccino")
+    print("3. Latte")
+    print("4. Hot Chocolate")
+    print("5. Tea")
+
+    drink_choice = input("Enter the number of your choice: ")
+
+    drinks = {
+        "1": "Espresso",
+        "2": "Cappuccino",
+        "3": "Latte",
+        "4": "Hot Chocolate",
+        "5": "Tea"
+    }
+
+    dessert = input("\nWould you like something sweet with it? (yes/no): ").lower()
+
+    if drink_choice in drinks:
+        drink = drinks[drink_choice]
+        if dessert == "yes":
+            sweet = input("Great! What kind of dessert? (cake/cookie/croissant): ")
+            print(f"\nYour order: {drink} and a {sweet}. Enjoy, {name}! ☕🍰")
+        else:
+            print(f"\nYour order: {drink}. Enjoy your drink, {name}! ☕")
+    else:
+        print("\nSorry, we don't have that option. Please restart and choose from the menu.")
+
+# Start the machine
+coffee_machine()'''
